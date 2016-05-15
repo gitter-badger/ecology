@@ -14,13 +14,20 @@ We can use Ecology to build modules inside a box of [Vagrant](https://www.vagran
 
 ## Installation
 
-```ruby
+```shell
     gem install ecology
 ```
 
 # Species
 
+A species is a binary component.
+
 ## Speciesfile
+
+## Installable
+## Configrable
+## Controllable
+
 
 # Planet
 

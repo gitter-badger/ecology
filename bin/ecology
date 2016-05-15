@@ -15,3 +15,10 @@ if argv.include?("--version")
 end
 
 puts argv
+
+begin
+    require_relative '../lib/ecology/species'
+
+    species = Ecology::Species.new('test', 'David Zhang', 'https://github.com/crispgm/ecology-species', '1.0', '', true, true, true)
+    species.info
+end
